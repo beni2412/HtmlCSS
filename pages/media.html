@@ -1,0 +1,52 @@
+<!doctype html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Example</title>
+  <style>
+    .media {
+      display: flex;
+      align-items: flex-start;
+      background: #b8dbcd;
+      padding: 1em;
+      border-radius: 3px;
+      max-width: 24em;
+    }
+
+    .media-object {
+      margin-left: 1em;
+      order: 1;
+      max-width: 20vw;
+    }
+
+    .media-body {
+      flex: 1;
+    }
+
+    .media-heading {
+      margin: 0 0 .5em;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Sample</h1>
+  </header>
+  <div class="media">
+    <img class="media-object" src="/assets/nasa.jpeg" alt="Sample photo">
+    <div class="media-body">
+      <h3 class="media-heading">SpaceX's upcoming NASA launch</h3>
+      <p>NASA is the first customer for SpaceX’s Dragon capsule and Falcon 9 rocket, but Elon Musk’s company is planning
+        on adding many more. Foreign governments seeking a human spaceflight program are one possibility; wealthy
+        tourists are another</p>
+    </div>
+  </div>
+</body>
+
+</html>
